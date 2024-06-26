@@ -1,17 +1,18 @@
 package com.pwd;
 
-public class Employee {
+public class EmployeeC {
 	
+	public EmployeeC(int id, String name, int salary, int age) {
+		this.id = id;
+		this.name = name;
+		this.salary = salary;
+		this.age = age; 
+}
 	
-	@Override
-	public String toString() {
-		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + ", getId()=" + getId() + ", getName()="
-				+ getName() + ", getSalary()=" + getSalary() + ", getClass()=" + getClass() + ", hashCode()="
-				+ hashCode() + ", toString()=" + super.toString() + "]";
-	}
 	int id;
 	String name;
 	int salary;
+	int age;
 	
 	
 	public int getId() {
